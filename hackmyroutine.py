@@ -15,7 +15,7 @@ from datetime import datetime
 api = twitter.Api(consumer_key='insert_unique_code', consumer_secret='insert_unique_code', access_token_key='insert_unique_code', access_token_secret='insert_unique_code')
 
 ##set to your serial port from arduino
-ser = serial.Serial('/dev/cu.usbmodem14111', 9600)
+ser = serial.Serial('insert_usb_port', 9600)
 
 ## check serial port
 def checkokay():
